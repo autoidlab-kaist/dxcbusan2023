@@ -977,15 +977,24 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 .ready-to-play:before {
   content: '';
-  background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%);
-  position: absolute;
+  /* background-image: linear-gradient(0deg, #FF4D79 0, #FF809F 100%); */
+  background: url(../img/background/dcxbusan2023.jpg) no-repeat center;
+  background-size: auto auto;
+  padding: 80px 0;
+  background-size: cover;
+  background-attachment: relative;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  /* position: absolute;
   display: block;
   left: 0px;
   top: 0px;
   width: 100%;
   height: 100%;
   z-index: 0;
-  opacity: 0.7;
+  opacity: 0.7; */
 }
 
 video {
@@ -1085,6 +1094,18 @@ h1 {
   background-size: cover;
   background-attachment: relative;
   position: relative;
+}
+
+.video-section {
+  /* background: url(../img/background/dcxbusan2023.jpg) no-repeat center; */
+  background-size: auto auto;
+  padding: 50px 0;
+  background-size: cover;
+  background-attachment: relative;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .counter-section:before {
@@ -2436,7 +2457,7 @@ footer {
 #hero-area .contents .head-title {
   color: #fff;
   font-size: 60px;
-  line-height: 60px;
+  line-height: 70px;
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 22px;
